@@ -46,5 +46,8 @@ class Owner
     self.pets[:dogs] << new_dog
   end
   
+  def walk_dogs
+    Dog.mood
+  
 end
 
