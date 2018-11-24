@@ -35,6 +35,3 @@ class Owner
   
 end
 
-
-
-Pry.start
