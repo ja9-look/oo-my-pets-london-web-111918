@@ -15,7 +15,10 @@ class Owner
   
   def self.count
     @@all.count
-    
+  end
+  
+  def self.clear
+    @@all.clear
   end
 
   
