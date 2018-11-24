@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   # code goes here
   
@@ -32,3 +34,5 @@ class Owner
   end
   
 end
+
+Pry.start
