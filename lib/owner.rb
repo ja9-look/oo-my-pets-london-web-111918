@@ -67,8 +67,7 @@ class Owner
   end
   
   def list_pets
-    self.pets.map {|species, pet_array|
-    pet_array.flatten}
+    return "I have "
   end
   
   
