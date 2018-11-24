@@ -31,9 +31,9 @@ class Owner
     return "I am a #{self.species}."
   end
 
-  def buy_fish(pet_name)
-    new_pet = Fish.new(pet_name)
-    self.pets[:fishes] << new_pet
+  def buy_fish
+    new_pet = Fish.new(name)
+    self.pets[:fish] << new_pet
   end
   
 end
