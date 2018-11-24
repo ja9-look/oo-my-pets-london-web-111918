@@ -64,7 +64,11 @@ class Owner
     }
     self.pets.each {|species, pet_array|
     pet_array.clear}
-    
+  end
+  
+  def list_pets
+    self.pets.map {|species, pet_array|
+    pet_array.flatten}
   end
   
   
